@@ -15,11 +15,12 @@ USER CONFIGURATION
 ==================
 
 Some configuration in the PortableApps.com Launcher can be overridden by the
-user in an INI file next to TotalCommanderPortable.exe called TotalCommanderPortable.ini.
-If you are happy with the default options, it is not necessary, though.  There
-is an example INI included with this package to get you started.  To use it,
-copy AppNamePortable.ini from this directory to TotalCommanderPortable.ini next to
-TotalCommanderPortable.exe. The options in the INI file are as follows:
+user in an INI file next to TotalCommanderPortable.exe called
+TotalCommanderPortable.ini. If you are happy with the default options, it is
+not necessary, though. There is an example INI included with this package to
+get you started. To use it, copy AppNamePortable.ini from this directory to
+TotalCommanderPortable.ini next to TotalCommanderPortable.exe. The options in
+the INI file are as follows:
 
 Section [TotalCommanderPortable]
 
@@ -52,12 +53,14 @@ Section [Editor]
    Notepad2Portable=false
    Notepad2-modPortable=false
    
-The restore_default entry allows you to restore the editor to the Total Commander default one.
-  The default is false.
+The restore_default entry allows you to restore the editor to the Total
+Commander default one.  The default is false.
 
-All other entries (AkelPadPortable, GeanyPortable, gVimPortable, Notepad++Portable,
-Notepad2Portable, Notepad2-modPortable)* allows you to use one** of them as default editor (F4).
-*Please note that you must have it previously installed in the same directory as TotalCommanderPortable
+All other entries (AkelPadPortable, GeanyPortable, gVimPortable,
+Notepad++Portable, Notepad2Portable, Notepad2-modPortable)* allows you to use
+one** of them as default editor (F4).
+*Please note that you must have it previously installed in the same directory
+as TotalCommanderPortable
 **Please note that ONLY one can be set to true.  The default is false.
 
 Section [ExtViewer]
@@ -70,12 +73,14 @@ Section [ExtViewer]
    Notepad2Portable=false
    Notepad2-modPortable=false
    
-The restore_default entry allows you to restore the external viewer to the Total Commander default one.
-  The default is false.
+The restore_default entry allows you to restore the external viewer to the
+Total Commander default one.  The default is false.
 
-All other entries (AkelPadPortable, GeanyPortable, gVimPortable, Notepad++Portable,
-Notepad2Portable, Notepad2-modPortable)* allows you to use one** of them as external viewer.
-*Please note that you must have it previously installed in the same directory as TotalCommanderPortable
+All other entries (AkelPadPortable, GeanyPortable, gVimPortable,
+Notepad++Portable, Notepad2Portable, Notepad2-modPortable)* allows you to use
+one** of them as external viewer.
+*Please note that you must have it previously installed in the same directory
+as TotalCommanderPortable
 **Please note that ONLY one can be set to true.  The default is false.
 
 There may be other values also permitted in the user configuration file by the
