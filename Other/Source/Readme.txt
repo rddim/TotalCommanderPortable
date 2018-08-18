@@ -59,8 +59,8 @@ Commander default one.  The default is false.
 All other entries (AkelPadPortable, GeanyPortable, gVimPortable,
 Notepad++Portable, Notepad2Portable, Notepad2-modPortable)* allows you to use
 one** of them as default editor (F4).
-*Please note that you must have it previously installed in the same directory
-as TotalCommanderPortable
+*Please note that you must have it previously installed in the same parent
+directory as TotalCommanderPortable
 **Please note that ONLY one can be set to true.  The default is false.
 
 Section [ExtViewer]
