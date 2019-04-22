@@ -45,43 +45,34 @@ saved back to your device.  The default is false.
 
 Section [Editor]
 
-   restore_default=false
-   AkelPadPortable=false
-   GeanyPortable=false
-   gVimPortable=false
-   Notepad++Portable=false
-   Notepad2Portable=false
-   Notepad2-modPortable=false
-   
-The restore_default entry allows you to restore the editor to the Total
-Commander default one.  The default is false.
+   PortableEditor=
 
-All other entries (AkelPadPortable, GeanyPortable, gVimPortable,
-Notepad++Portable, Notepad2Portable, Notepad2-modPortable)* allows you to use
-one** of them as default editor (F4).
+The PortableEditor entry allows you to add your favorite portable editor* as
+'Editor for F4'. Leave it empty to use the default Total Commander one.
+
+Example: PortableEditor=Notepad++Portable
+
 *Please note that you must have it previously installed in the same parent
-directory as TotalCommanderPortable
-**Please note that ONLY one can be set to true.  The default is false.
+directory as TotalCommanderPortable.
 
 Section [ExtViewer]
 
-   restore_default=false
-   AkelPadPortable=false
-   GeanyPortable=false
-   gVimPortable=false
-   Notepad++Portable=false
-   Notepad2Portable=false
-   Notepad2-modPortable=false
-   
-The restore_default entry allows you to restore the external viewer to the
-Total Commander default one.  The default is false.
+   PortableExtViewer=
 
-All other entries (AkelPadPortable, GeanyPortable, gVimPortable,
-Notepad++Portable, Notepad2Portable, Notepad2-modPortable)* allows you to use
-one** of them as external viewer.
-*Please note that you must have it previously installed in the same directory
-as TotalCommanderPortable
-**Please note that ONLY one can be set to true.  The default is false.
+The PortableExtViewer entry allows you to add your favorite portable viewer* as
+'Viewer for F3'. Leave it empty to use the default Total Commander one.
+
+Example: PortableExtViewer=AkelPadPortable
+
+*Please note that you must have it previously installed in the same parent
+directory as TotalCommanderPortable.
+
+Please, keep in mind that your favorite editor/viewer binary name
+(w/o extension .exe) and the folder where it lives should always be with the
+same names, otherwise it will not work.
+
+Officially released are AkelPadPortable, GeanyPortable, gVimPortable,
+Notepad++Portable, Notepad2Portable, Notepad2-modPortable.
 
 There may be other values also permitted in the user configuration file by the
 portable application; refer to help.html for any details of them.

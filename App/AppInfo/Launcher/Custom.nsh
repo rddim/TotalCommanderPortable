@@ -1,8 +1,6 @@
 ${SegmentFile}
 
-!include "${PACKAGE}\Other\Source\PortableEditors.nsh"
-!include "${PACKAGE}\Other\Source\PortableExtViewers.nsh"
-!include "${PACKAGE}\Other\Source\ReadINIStrWithDefault.nsh"
+!include "${PACKAGE}\Other\Source\PortableEditorAndExtViewer.nsh"
 
 ${SegmentPrePrimary}
 
@@ -18,7 +16,6 @@ ${SegmentPrePrimary}
 
 ${SegmentPreExec}
 
-	!insertmacro "PortableEditors"
-	!insertmacro "PortableExtViewers"
+	!insertmacro "PortableEditorAndExtViewer"
 
 !macroend
