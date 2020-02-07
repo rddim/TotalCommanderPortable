@@ -50,7 +50,7 @@ Section [Editor]
 The PortableEditor entry allows you to add your favorite portable editor* as
 'Editor for F4'. Leave it empty to use the default Total Commander one.
 
-Example: PortableEditor=Notepad++Portable
+Example: PortableEditor=Notepad++Portable\Notepad++Portable.exe
 
 *Please note that you must have it previously installed in the same parent
 directory as TotalCommanderPortable.
@@ -62,14 +62,10 @@ Section [ExtViewer]
 The PortableExtViewer entry allows you to add your favorite portable viewer* as
 'Viewer for F3'. Leave it empty to use the default Total Commander one.
 
-Example: PortableExtViewer=AkelPadPortable
+Example: PortableExtViewer=AkelPadPortable\AkelPadPortable.exe
 
 *Please note that you must have it previously installed in the same parent
 directory as TotalCommanderPortable.
-
-Please, keep in mind that your favorite editor/viewer binary name
-(w/o extension .exe) and the folder where it lives should always be with the
-same names, otherwise it will not work.
 
 Officially released are AkelPadPortable, GeanyPortable, gVimPortable,
 Notepad++Portable, Notepad2Portable, Notepad2-modPortable.
