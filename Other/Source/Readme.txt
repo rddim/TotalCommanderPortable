@@ -67,8 +67,8 @@ Example: PortableExtViewer=AkelPadPortable\AkelPadPortable.exe
 *Please note that you must have it previously installed in the same parent
 directory as TotalCommanderPortable.
 
-Officially released are AkelPadPortable, GeanyPortable, gVimPortable,
-Notepad++Portable, Notepad2Portable, Notepad2-modPortable.
+Officially released are AkelPadPortable, CudaTextPortable, GeanyPortable,
+gVimPortable, Notepad++Portable, Notepad2Portable, Notepad2-modPortable.
 
 There may be other values also permitted in the user configuration file by the
 portable application; refer to help.html for any details of them.
